@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Freak - No Pain No Gain</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+    <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+    <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+    <link rel="preload" as="image" href="./assets/images/calories.svg">
+    <style>
+        video {
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="./index.php" class="logo">
+                <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+                <span class="span">Fitness Freak</span>
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#biceps" class="navbar-link active" data-nav-link>Biceps</a>
+                    </li>
+
+                    <li>
+                        <a href="#chest" class="navbar-link" data-nav-link>Chest</a>
+                    </li>
+
+                    <li>
+                        <a href="#back" class="navbar-link" data-nav-link>Back</a>
+                    </li>
+
+                    <li>
+                        <a href="" class="navbar-link" data-nav-link>Shoulders</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link" data-nav-link>Triceps</a>
+                    </li>
+
+
+                </ul>
+
+            </nav>
+
+            <a href="./logout.php" class="btn btn-secondary">Log Out</a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+        </div>
+    </header>
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section style="background-image: url('./assets/images/hero-bg.png')">
+                <div class="container">
+
+
+                    <div class="hero-banner">
+
+                        <img src="./exerciseimg/backgroundbicepimg.png" width="660" height="753" alt="hero banner" class="w-100">
+
+                        <img src="./assets/images/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt="" class="circle circle-1">
+                        <img src="./assets/images/hero-circle-two.png" width="666" height="666" aria-hidden="true" alt="" class="circle circle-2">
+
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+
+
+            <section class="section video" aria-label="video">
+                <div class="container">
+
+
+
+
+                </div>
+            </section>
+
+
+
+
+
+
+            <!-- 
+        - #CLASS
+      -->
+            <div id="biceps">
+                <section class="section class bg-dark has-bg-image " id="class " aria-label="class " style="background-image: url( './assets/images/classes-bg.png') ">
+
+                    <div class="container ">
+                        <div class="">
+                            <h2 class="h2 section-title text-center " id="biceps">Suggested Exercise For Biceps</h2>
+                            <video src="./exerciseimg/biceps.mp4" style "height=" 80% "  width=" 80% "  controls></video>
+    
+    
+                    
+                            <ul class="class-list has-scrollbar ">
+    
+                                <li class="scrollbar-item ">
+                                    <div class="class-card ">
+    
+                                        <figure class="card-banner img-holder " style=" --height: 240; ">
+                                            <img src="./exerciseimg/Back And Biceps_ The Best Workout Combination - GymGuider_com (1).gif " width="416 " height="240 " loading="lazy " alt="Weight Lifting " class="img-cover ">
+                                        </figure>
+    
+                                        <div class="card-content ">
+    
+                                            <div class="title-wrapper ">
+
+                                               <!-- <img src="./assets/images/class-icon-1.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+    
+                                                <h3 class="h3 ">
+                                                    <a href="# " class="card-title ">concentration curl</a>
+                                                </h3>
+                                            </div>
+    
+                                            <p class="card-text ">
+                                                activating both the long head and short head of your biceps.
+                                            </p>
+    
+                                            <div class="card-progress ">
+    
+                                              
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+                                </li>
+    
+                                <li class="scrollbar-item ">
+                                    <div class="class-card ">
+    
+                                        <figure class="card-banner img-holder " style=" --height: 240; ">
+                                            <img src="./exerciseimg/Bizeps Curls auf der Schrägbank mit Kurzhanteln _ modusX.gif " width="416 " height="240 " loading="lazy " alt="Cardio & Strenght " class="img-cover ">
+                                        </figure>
+    
+                                        <div class="card-content ">
+    
+                                            <div class="title-wrapper ">
+                                                <!-- <img src="./assets/images/class-icon-2.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+    
+                                                <h3 class="h3 ">
+                                                    <a href="# " class="card-title ">Inclined curls</a>
+                                                </h3>
+                                            </div>
+    
+                                            <p class="card-text ">
+                                                you're putting resistance on the biceps brachii, which in turn engages and tightens, a process called a concentric contraction.
+                                            </p>
+    
+                                            <div class="card-progress ">
+    
+                                                
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+                                </li>
+    
+                                <li class="scrollbar-item ">
+                                    <div class="class-card ">
+    
+                                        <figure class="card-banner img-holder " style=" --height: 240; ">
+                                            <img src="./exerciseimg/How To Do Dumbbell Curl _ Benefits And Muscles Worked.gif " width="416 " height="240 " loading="lazy " alt="Power Yoga " class="img-cover ">
+                                        </figure>
+    
+                                        <div class="card-content ">
+    
+                                            <div class="title-wrapper ">
+                                                <!-- <img src="./assets/images/class-icon-3.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+    
+                                                <h3 class="h3 ">
+                                                    <a href="# " class="card-title ">Dumbbell curls</a>
+                                                </h3>
+                                            </div>
+    
+                                            <p class="card-text ">
+                                                heavy weights for low reps to build strength, or with lighter weights for high reps to build endurance. 
+                                            </p>
+    
+                                            <div class="card-progress ">
+    
+                                              
+    
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+                                </li>
+    
+                                
+                        </div>
+                </section>
+    
+            </div>
+<div id="chest ">
+
+            <section class="section class bg-dark has-bg-image " id="class " aria-label="class " style="background-image: url( './assets/images/classes-bg.png') ">
+
+                <div class="container ">
+                    <div class=" ">
+                        <h2 class="h2 section-title text-center ">Suggested Exercise For Chest</h2>
+                        <video src="./exerciseimg/chest.mp4 " style "height=" 80% " width=" 80% " controls></video>
+
+
+
+
+
+
+                            <ul class="class-list has-scrollbar ">
+
+                                <li class="scrollbar-item ">
+                                    <div class="class-card ">
+
+                                        <figure class="card-banner img-holder " style=" --height: 240; ">
+                                            <img src="./exerciseimg/images/chest-4.gif " width="416 " height="240 " loading="lazy " alt="Weight Lifting " class="img-cover ">
+                                        </figure>
+
+                                        <div class="card-content ">
+
+                                            <div class="title-wrapper ">
+                                                <!-- <img src="./assets/images/class-icon-1.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                                <h3 class="h3 ">
+                                                    <a href="# " class="card-title ">Dumbbell press</a>
+                                                </h3>
+                                            </div>
+
+                                            <p class="card-text ">
+                                                The bench press uses your shoulders, triceps, forearms, lats, pecs, traps, rhomboids, and pretty much every muscle in your upper body
+                                            </p>
+
+                                            <div class="card-progress ">
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li class="scrollbar-item ">
+                                    <div class="class-card ">
+
+                                        <figure class="card-banner img-holder " style=" --height: 240; ">
+                                            <img src="./exerciseimg/images/chest-2.gif " width="416 " height="240 " loading="lazy " alt="Cardio & Strenght " class="img-cover ">
+                                        </figure>
+
+                                        <div class="card-content ">
+
+                                            <div class="title-wrapper ">
+                                                <!-- <img src="./assets/images/class-icon-2.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                                <h3 class="h3 ">
+                                                    <a href="# " class="card-title ">Dumbbell Fly</a>
+                                                </h3>
+                                            </div>
+
+                                            <p class="card-text ">
+                                                Dumbbell flyes will work both of your chest muscles, the larger pectoralis major and the smaller pectoralis minor
+                                            </p>
+
+                                            <div class="card-progress ">
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li class="scrollbar-item ">
+                                    <div class="class-card ">
+
+                                        <figure class="card-banner img-holder " style=" --height: 240; ">
+                                            <img src="./exerciseimg/images/chest-3.gif " width="416 " height="240 " loading="lazy " alt="Power Yoga " class="img-cover ">
+                                        </figure>
+
+                                        <div class="card-content ">
+
+                                            <div class="title-wrapper ">
+                                                <!-- <img src="./assets/images/class-icon-3.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                                <h3 class="h3 ">
+                                                    <a href="# " class="card-title ">Inclined dumbbell press</a>
+                                                </h3>
+                                            </div>
+
+                                            <p class="card-text ">
+                                                The purpose of the incline press is to focus more of the work on the upper pecs.
+                                            </p>
+
+                                            <div class="card-progress ">
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+
+                        </div>
+                </section>
+
+
+
+
+
+
+                </section id="back">
+                </div>
+
+                <section class="section class bg-dark has-bg-image " id="class " aria-label="class " style="background-image: url( './assets/images/classes-bg.png') ">
+
+                    <div class="container ">
+                        <div class=" ">
+                            <h2 class="h2 section-title text-center ">Suggested Exercise For Back</h2>
+                            <video src="./exerciseimg/back.mp4 " style "height=" 80% " width=" 80% " controls></video>
+
+
+
+
+
+
+                        <ul class="class-list has-scrollbar ">
+
+                            <li class="scrollbar-item ">
+                                <div class="class-card ">
+
+                                    <figure class="card-banner img-holder " style=" --height: 240; ">
+                                        <img src="./exerciseimg/images/back-2.gif " width="416 " height="240 " loading="lazy " alt="Weight Lifting " class="img-cover ">
+                                    </figure>
+
+                                    <div class="card-content ">
+
+                                        <div class="title-wrapper ">
+                                            <!-- <img src="./assets/images/class-icon-1.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                            <h3 class="h3 ">
+                                                <a href="# " class="card-title ">Reverse fly</a>
+                                            </h3>
+                                        </div>
+
+                                        <p class="card-text ">
+                                            Strong upper back muscles help balance your shoulder strength and help protect your shoulder from injury.
+                                        </p>
+
+                                        <div class="card-progress ">
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class="scrollbar-item ">
+                                <div class="class-card ">
+
+                                    <figure class="card-banner img-holder " style=" --height: 240; ">
+                                        <img src="./exerciseimg/images/back-5.gif " width="416 " height="240 " loading="lazy " alt="Cardio & Strenght " class="img-cover ">
+                                    </figure>
+
+                                    <div class="card-content ">
+
+                                        <div class="title-wrapper ">
+                                            <!-- <img src="./assets/images/class-icon-2.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                            <h3 class="h3 ">
+                                                <a href="# " class="card-title ">dumbbell rows</a>
+                                            </h3>
+                                        </div>
+
+                                        <p class="card-text ">
+                                            Dumbbell rows put special emphasis on your back muscles, including the latissimus dorsi, posterior deltoids, teres major, trapezius, and rhomboids.
+                                        </p>
+
+                                        <div class="card-progress ">
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class="scrollbar-item ">
+                                <div class="class-card ">
+
+                                    <figure class="card-banner img-holder " style=" --height: 240; ">
+                                        <img src="./exerciseimg/images/ᐅ Beckenheben mit Gewicht + 3 Alternativen (Bilder, Videos).gif " width="416 " height="240 " loading="lazy " alt="Power Yoga " class="img-cover ">
+                                    </figure>
+
+                                    <div class="card-content ">
+
+                                        <div class="title-wrapper ">
+                                            <!-- <img src="./assets/images/class-icon-3.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                            <h3 class="h3 ">
+                                                <a href="# " class="card-title ">Back Extension</a>
+                                            </h3>
+                                        </div>
+
+                                        <p class="card-text ">
+                                         
+                                            Back extension exercises improve the stability and strength of your erector spinae muscles.
+                                        </p>
+
+                                        <div class="card-progress ">
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+
+                    </div>
+            </section>
+
+
+
+
+
+
+            </section>
+
+
+
+
+            <section class="section class bg-dark has-bg-image " id="class " aria-label="class " style="background-image: url( './assets/images/classes-bg.png') ">
+
+                <div class="container ">
+                    <div class=" ">
+                        <h2 class="h2 section-title text-center ">Suggested Exercise For Shoulder</h2>
+                        <video src="./exerciseimg/shoulder.mp4 " style "height=" 80% " width=" 80% " controls></video>
+
+
+
+
+
+
+                            <ul class="class-list has-scrollbar ">
+
+                                <li class="scrollbar-item ">
+                                    <div class="class-card ">
+
+                                        <figure class="card-banner img-holder " style=" --height: 240; ">
+                                            <img src="./exerciseimg/images/shoulder-3.gif " width="416 " height="240 " loading="lazy " alt="Weight Lifting " class="img-cover ">
+                                        </figure>
+
+                                        <div class="card-content ">
+
+                                            <div class="title-wrapper ">
+                                                <!-- <img src="./assets/images/class-icon-1.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                                <h3 class="h3 ">
+                                                    <a href="# " class="card-title ">Side raises</a>
+                                                </h3>
+                                            </div>
+
+                                            <p class="card-text ">
+                                                Lateral raises muscles worked primarily include the lateral deltoid muscles.
+                                            </p>
+
+                                            <div class="card-progress ">
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li class="scrollbar-item ">
+                                    <div class="class-card ">
+
+                                        <figure class="card-banner img-holder " style=" --height: 240; ">
+                                            <img src="./exerciseimg/images/shoulder-4.gif " width="416 " height="240 " loading="lazy " alt="Cardio & Strenght " class="img-cover ">
+                                        </figure>
+
+                                        <div class="card-content ">
+
+                                            <div class="title-wrapper ">
+                                                <!-- <img src="./assets/images/class-icon-2.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                                <h3 class="h3 ">
+                                                    <a href="# " class="card-title ">Front raises</a>
+                                                </h3>
+                                            </div>
+
+                                            <p class="card-text ">
+                                                . By working the stabilising muscles, front raises help to improve shoulder stability and mobility.
+                                            </p>
+
+                                            <div class="card-progress ">
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li class="scrollbar-item ">
+                                    <div class="class-card ">
+
+                                        <figure class="card-banner img-holder " style=" --height: 240; ">
+                                            <img src="./exerciseimg/images/shoulder-5.gif " width="416 " height="240 " loading="lazy " alt="Power Yoga " class="img-cover ">
+                                        </figure>
+
+                                        <div class="card-content ">
+
+                                            <div class="title-wrapper ">
+                                                <!-- <img src="./assets/images/class-icon-3.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                                <h3 class="h3 ">
+                                                    <a href="# " class="card-title ">Shoulder Press</a>
+                                                </h3>
+                                            </div>
+
+                                            <p class="card-text ">
+                                                The shoulder press is one of the best exercises for strengthening your shoulders and upper back.
+                                            </p>
+
+                                            <div class="card-progress ">
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+
+                        </div>
+                </section>
+
+
+
+
+
+
+                </section>
+
+                <section class="section class bg-dark has-bg-image " id="class " aria-label="class " style="background-image: url( './assets/images/classes-bg.png') ">
+
+                    <div class="container ">
+                        <div class=" ">
+                            <h2 class="h2 section-title text-center ">Suggested Exercise For Triceps</h2>
+                            <video src="./exerciseimg/triceps.mp4 " style "height=" 80% " width=" 80% " autoplay controls></video>
+
+
+
+
+
+
+                        <ul class="class-list has-scrollbar ">
+
+                            <li class="scrollbar-item ">
+                                <div class="class-card ">
+
+                                    <figure class="card-banner img-holder " style=" --height: 240; ">
+                                        <img src="./exerciseimg/images/tricep-1.gif " width="416 " height="240 " loading="lazy " alt="Weight Lifting " class="img-cover ">
+                                    </figure>
+
+                                    <div class="card-content ">
+
+                                        <div class="title-wrapper ">
+                                            <!-- <img src="./assets/images/class-icon-1.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                            <h3 class="h3 ">
+                                                <a href="# " class="card-title ">Dumbbell KickBacks</a>
+                                            </h3>
+                                        </div>
+
+                                        <p class="card-text ">
+                                            the dumbbell kickback  activates the deltoids and the muscles of the upper and mid-back.
+                                        </p>
+
+                                        <div class="card-progress ">
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class="scrollbar-item ">
+                                <div class="class-card ">
+
+                                    <figure class="card-banner img-holder " style=" --height: 240; ">
+                                        <img src="./exerciseimg/images/triceps-2.gif " width="416 " height="240 " loading="lazy " alt="Cardio & Strenght " class="img-cover ">
+                                    </figure>
+
+                                    <div class="card-content ">
+
+                                        <div class="title-wrapper ">
+                                            <!-- <img src="./assets/images/class-icon-2.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                            <h3 class="h3 ">
+                                                <a href="# " class="card-title ">Lying Extension</a>
+                                            </h3>
+                                        </div>
+
+                                        <p class="card-text ">
+                                            entire triceps muscle group in the upper arm. It works the triceps from the elbow all the way to the latissimus dorsi. 
+
+                                        <div class="card-progress ">
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class="scrollbar-item ">
+                                <div class="class-card ">
+
+                                    <figure class="card-banner img-holder " style=" --height: 240; ">
+                                        <img src="./exerciseimg/images/How To Do Seated Dumbbell Triceps Extension _ Muscles Worked.gif " width="416 " height="240 " loading="lazy " alt="Power Yoga " class="img-cover ">
+                                    </figure>
+
+                                    <div class="card-content ">
+
+                                        <div class="title-wrapper ">
+                                            <!-- <img src="./assets/images/class-icon-3.png " width="52 " height="52 " aria-hidden="true " alt=" " class="title-icon "> -->
+
+                                            <h3 class="h3 ">
+                                                <a href="# " class="card-title ">Overhead Extension</a>
+                                            </h3>
+                                        </div>
+
+                                        <p class="card-text ">
+                                            An overhead tricep extension, also known as a dumbbell tricep extension, is an isolation exercise that targets your triceps muscles.
+                                        </p>
+
+                                        <div class="card-progress ">
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+
+                    </div>
+            </section>
+
+
+
+
+
+
+            </section>
+
+
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+
+
+
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js " defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module " src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js "></script>
+
+</body>
+
+</html>
