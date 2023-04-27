@@ -456,7 +456,7 @@ if(!isset($_SESSION['usermail'])){
                             <div class="blog-card">
 
                                 <div class="card-banner img-holder" style="width: 440; height: 270;">
-                                    <img src="./WhatsApp Image 2023-04-26 at 9.39.27 AM.jpeg" width="440" height="270" loading="lazy" alt="Going to the gym for the first time" class="img-cover">
+                                    <img src="./WhatsApp Image 2023-04-27 at 3.12.48 PMjpeg" width="440" height="270" loading="lazy" alt="Going to the gym for the first time" class="img-cover">
 
                                     <time class="card-meta" datetime="2022-07-07"> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Yash Gangwar (201500812)  &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; </time>
                                 </div>
